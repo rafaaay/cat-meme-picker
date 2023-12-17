@@ -60,7 +60,7 @@ function renderCat(){
     memeModalInner.innerHTML =  `
         <img 
         class="cat-img" 
-        src="./assets/${catObject.image}"
+        src="/assets/${catObject.image}"
         alt="${catObject.alt}"
         >
         `
